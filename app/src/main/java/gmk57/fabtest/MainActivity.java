@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setSubtitle("com.android.support:design:27.1.1");
+        getSupportActionBar().setSubtitle("com.android.support:design:28.0.0");
 
         setContentView(R.layout.activity_main);
         findViewById(R.id.fab2).setEnabled(false);
