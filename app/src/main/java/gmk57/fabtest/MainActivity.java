@@ -1,8 +1,8 @@
 package gmk57.fabtest;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setSubtitle("com.android.support:design:28.0.0");
+        getSupportActionBar().setSubtitle("com.google.android.material:material:1.0.0");
 
         setContentView(R.layout.activity_main);
         findViewById(R.id.fab2).setEnabled(false);

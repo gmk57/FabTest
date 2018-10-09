@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab1"
         style="@style/FabStyle"
         android:enabled="false"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toEndOf="@+id/fab1"
         app:layout_constraintTop_toTopOf="@+id/fab1" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab2"
         style="@style/FabStyle"
         android:src="@drawable/ic_24dp"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toEndOf="@+id/fab2"
         app:layout_constraintTop_toTopOf="@+id/fab2" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab3"
         style="@style/FabStyle"
         android:scaleType="center"
@@ -66,7 +66,7 @@
         app:layout_constraintStart_toEndOf="@+id/fab3"
         app:layout_constraintTop_toTopOf="@+id/fab3" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab4"
         style="@style/FabStyle"
         android:src="@drawable/ic_60dp"
@@ -89,4 +89,4 @@
         app:layout_constraintStart_toEndOf="@+id/fab4"
         app:layout_constraintTop_toTopOf="@+id/fab4" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
